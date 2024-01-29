@@ -1,0 +1,86 @@
+.header_nav{
+    height: 100px;
+    margin-bottom: 0.5rem;
+}
+
+.home_wrapper{
+    height: 50rem;
+    /* background-color:burlywood; */
+    margin-bottom: 0.5rem;
+
+}
+
+.styler{
+ /* background-color: blueviolet; */
+ display: grid;
+ grid-template-columns: auto auto;
+ width: 100%;
+ background-color:bisque;
+}
+
+.headline_sec{
+    display: grid;
+    height: 40rem;
+    grid-column: 1;
+    width: 60rem;
+    margin-right: 1rem;
+    /* background-color: blueviolet; */
+}
+.headline{
+    height: auto;
+}
+
+.intro{
+    height: auto;
+}
+
+.btn_section{
+    height: auto;
+}
+
+.customer_sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: auto;
+    background-color: blueviolet;
+    margin-bottom: 0.5rem;
+}
+
+.customer_pics{
+    width: auto;
+    background-color:blue;
+}
+
+.customer_testimonials{
+    width: auto;
+    background-color:brown;
+}
+
+.hero_story{
+
+    width:50rem;
+    /* background-color: green; */
+    height: 40rem;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 10rem;
+    background-color:burlywood;  
+}
+
+.partners{
+    width: auto;
+    background-color:coral;
+}
+.contacts{
+    width: auto;
+    background-color:cadetblue;
+}
